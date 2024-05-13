@@ -52,7 +52,7 @@ The configuration file for ESP32-CAM based sensorCAM
 //#define ALTWIFI_SSID     "Your Alt.net name"
 //#define ALTWIFI_PWD  "Your Alt.netPassword"
 #define ALTWIFI_SSID     "Optus_7CAD47"
-#define ALTWIFI_PWD  "stagsyentaXPPjX"
+#define ALTWIFI_PWD  "stagsyemtaXPPjX"
 //
 // To invoke TWOIMAGE Averaging feature on more/less virtual Sensors, adjust this parameter
 // this average may reduce sensitivity to noise BUT may increase response time by 100mSec to minimal level changes 
