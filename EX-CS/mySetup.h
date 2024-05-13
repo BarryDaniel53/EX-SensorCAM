@@ -1,8 +1,7 @@
-// setup for sensorCAM on an ESP32-CAM NANO NUMDigitalPins <= 80
-// assume 700 is first vpin (set with ...CREATE(700,80,0x11)
+// setup for sensorCAM on an ESP32-CAM NUMDigitalPins <= 80
+// assume 700 is first vpin ( set with myHal.cpp EXSensorCAM::create(700,80,0x11) )
 //
 //         id vPin	      	 I/O  bsNo. pin   
-
 SETUP("<Z 100 700 0>");     // set up for control OUTPUT on vpin #00
 // start of up to 80 sensors numbered bsNo's 100 to 197 (OCT) (0/0 to 9/7)
 SETUP("<S 100 700 1>");     // first sensor (S00) (reference) 
